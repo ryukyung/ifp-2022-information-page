@@ -7,13 +7,20 @@ body {
   height: 100vh;
 }
 .wrapper {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+  margin-bottom: 30px;
 }
 .container {
   display: flex;
   align-content: space-around;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.container:nth-child(3) {
+  padding-bottom: 40px;
+}
+.activeImg {
+  height: 215px;
+  padding-bottom: 5px;
 }
 .img-list {
   width: 32%;
@@ -26,23 +33,10 @@ body {
   margin-left: 0.3%;
   margin-right: 0.3%;
 }
-.coding-test img,
-.seminar img {
-  margin-bottom: 25px;
-}
-.swift img {
-  margin-bottom: 45px;
-}
-.project img {
-  margin-bottom: 18px;
-}
-.jandi .text,
-.github .text {
-  margin-top: 15px;
-}
 .text .title {
   font-size: 17px;
   color: #5a5a5a;
+  padding-bottom: 5px;
 }
 .text .desc {
   color: #c5c3c3;
