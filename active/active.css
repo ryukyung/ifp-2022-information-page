@@ -18,6 +18,10 @@ body {
 .container:nth-child(3) {
   padding-bottom: 40px;
 }
+.cover {
+  margin-top: 130px;
+}
+
 .activeImg {
   height: 215px;
   padding-bottom: 5px;

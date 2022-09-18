@@ -11,6 +11,7 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+
 .top,
 .middle {
   display: flex;
