@@ -1,0 +1,26 @@
+@media (max-width: 900px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    width: 100vw;
+  }
+  .wrapper {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    /* background-color: black; */
+  }
+  .cover {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .point-box {
+    width: 90%;
+  }
+  .point-box h3 {
+    font-size: 17px;
+  }
+}
