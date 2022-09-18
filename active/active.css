@@ -5,13 +5,11 @@
 body {
   width: 100vw;
   height: 100vh;
-  /* background-color: #a7a7a7; */
 }
 .wrapper {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  /* margin: 10px; */
 }
 .container {
   display: flex;
@@ -47,7 +45,7 @@ body {
   color: #5a5a5a;
 }
 .text .desc {
-  color: #ccc;
+  color: #c5c3c3;
 }
 .github img,
 .jandi .images img,
