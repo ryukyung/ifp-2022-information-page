@@ -7,98 +7,93 @@ body {
   height: 100vh;
 }
 .wrapper {
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
-.goal-wrapper {
-  width: 70%;
-  height: 300px;
+.container {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* margin-top: 100px; */
-  margin-right: 15%;
+  /* align-content: space-around; */
+  /* margin-bottom: 10px; */
   margin-left: 15%;
-  /* background-color: lightblue; */
+  margin-right: 15%;
+  padding-bottom: 50px;
 }
 
-.goal-container {
-  height: inherit;
-  /* background-color: #2bff88; */
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
+.cover {
+  margin-top: 30px;
 }
-.goal-box {
+
+.goal-img {
   height: 80%;
-  width: 250px;
+  height: 215px;
+  /* background-color: antiquewhite; */
+  padding-bottom: 5px;
   display: flex;
   justify-content: center;
-  flex-direction: column;
   align-items: center;
-  border-radius: 20px;
-
-  transition: all 0.5s linear;
-  transform-style: preserve-3d;
-}
-.goal-box:hover {
-  transform: rotateY(180deg);
 }
 .goal-img i {
   font-size: 130px;
-  margin-bottom: 20px;
-  color: white;
+}
+.goal-img i {
+  filter: drop-shadow(20px 20px 14px #ccc);
 }
 .mentoring {
-  background: #c6ffdd;
-  background: linear-gradient(45deg, #f7797d, #fbd786, #c6ffdd);
+  color: #fb7ba19e;
 }
 .seminar {
-  background-color: #85ffbd;
-  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+  color: #ffee00b4;
 }
 .backend {
-  background-color: #74ebd5;
-  background-image: linear-gradient(225deg, #74ebd5 0%, #9face6 100%);
+  color: #84fb96b4;
 }
 .team {
-  background-color: #fbda61;
-  background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+  color: #5de6ddbd;
 }
 .session {
-  background-color: #fa8bff;
-  background-image: linear-gradient(45deg, #fa8bff 0%, #2bd2ff 52%, #2bff88 90%);
+  color: #fe5858c2;
 }
 .study {
-  background: #ef32d9;
-  background: linear-gradient(223deg, #89fffd, #ef32d9);
+  color: #a88bebcd;
 }
-.front,
-.back {
+.img-list {
+  width: 32%;
+  /* background-color: #f7f7f7; */
+  padding: 7px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.img-list .text {
+  /* background-color: blue; */
   width: 100%;
-  height: 100%;
-  position: absolute;
-  backface-visibility: hidden;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: #f7f7f7;
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
+  /* flex-direction: column; */
 }
-
-.back {
-  transform: rotateY(180deg);
-  align-items: center;
+.img-list:nth-child(2) {
+  margin-left: 0.3%;
+  margin-right: 0.3%;
 }
-.front i {
-  font-size: 100px;
-  margin-bottom: 10px;
+.text .title {
+  font-size: 17px;
+  color: #5a5a5a;
+  padding-bottom: 5px;
 }
-.front h2 {
-  font-size: 20px;
-  margin-bottom: -30px;
+.text .desc {
+  color: #c5c3c3;
 }
-.back h2 {
-  display: inline-block;
-  /* margin-left: 10px; */
+.github img,
+.jandi .images img,
+.seminar img,
+.coding-test img,
+.flask img,
+.js img,
+.swift img,
+.project img,
+.gather img {
+  width: 100%;
+}
+.images img {
+  margin-bottom: 15px;
 }

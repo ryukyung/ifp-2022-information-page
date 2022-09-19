@@ -5,41 +5,22 @@
 body {
   width: 100vw;
   height: 100vh;
-  /* background-color: black; */
 }
 .cover {
-  width: 70%;
-  height: 100%;
-  margin-left: 15%;
-  margin-right: 15%;
+  width: 100%;
+  margin: 1em auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  /* background-color: lightblue; */
-}
-.point-box {
-  width: 60%;
-  height: 55%;
-  border-radius: 10px;
-  background-color: antiquewhite;
-}
-.point-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-}
-.point-box h3 {
-  font-size: 23px;
-  margin-bottom: 17px;
+  justify-content: center;
 }
 .button {
   width: 120px;
   height: 35px;
-  margin-top: 60px;
+  margin-top: 0px;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
-  background-color: aqua;
+  background-color: #ccc;
 }
