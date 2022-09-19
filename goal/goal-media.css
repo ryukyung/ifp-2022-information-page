@@ -1,17 +1,53 @@
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
   .wrapper {
-    width: 100%;
+    width: 100vw;
     margin-left: 0;
-    margin-right: 0;
-    /* background-color: black; */
+    background-color: lightblue;
+  }
+  header {
+    width: 100vw;
+    background-color: lightcoral;
   }
   .goal-wrapper {
-    /* width: 50%; */
-    height: 600px;
+    display: flex;
+    justify-content: center;
     margin-left: 0;
     margin-right: 0;
   }
   .goal-container {
+    background-color: blueviolet;
     flex-direction: column;
+  }
+  .goal-box {
+    height: 90%;
+    margin-bottom: 10px;
+  }
+} */
+@media (max-width: 900px) {
+  .wrapper {
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header {
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: lightcoral; */
+  }
+  .goal-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .goal-container {
+    background-color: blueviolet;
+    flex-direction: column;
+  }
+  .goal-box {
+    height: 90%;
+    margin-bottom: 10px;
   }
 }

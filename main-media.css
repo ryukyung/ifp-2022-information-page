@@ -1,0 +1,17 @@
+@media (max-width: 900px) {
+  .wrapper {
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header {
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: lightcoral; */
+  }
+  .menu {
+    /* background-color: lightcyan; */
+  }
+}

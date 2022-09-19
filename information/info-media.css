@@ -7,10 +7,14 @@
     width: 100vw;
   }
   .wrapper {
-    width: 100%;
+    width: 100vw;
     margin-left: 0;
     margin-right: 0;
     /* background-color: black; */
+  }
+  .menu {
+    /* padding-left: 110px; */
+    /* notice 오른쪽으로 이동 */
   }
   .top {
     margin: 100px 10px;
