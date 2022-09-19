@@ -1,0 +1,83 @@
+html,
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.btn-section {
+  display: flex;
+  /* padding: 20px; */
+  margin-top: 30px;
+  margin-left: -20px;
+}
+
+.btn-section button {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 400ms;
+
+  animation: zoom 500ms ease;
+}
+
+.btn-section button i {
+  position: absolute;
+  font-size: 1.5em;
+  transition: 400ms;
+}
+
+.btn-section .btn-git {
+  background-color: #ebfaf0bb;
+  color: #47cf73;
+}
+.btn-section .btn-no {
+  background-color: #f8f7ecbb;
+  color: #4366b2;
+}
+.btn-section .btn-you {
+  background-color: #f9ecf1bb;
+  color: #f22a4b;
+}
+
+.btn-section .first-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.btn-section .second-logo {
+  position: absolute;
+  top: calc(50% + 30px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.btn-section button:hover .first-logo {
+  position: absolute;
+  top: -30px;
+  opacity: 0;
+}
+
+.btn-section button:hover .second-logo {
+  top: 50%;
+  opacity: 1;
+}
+
+.btn-section button:active {
+  background-color: #ffffff00;
+}
+
+@media (max-width: 900px) {
+  .btn-section {
+    margin-left: -7px;
+  }
+}

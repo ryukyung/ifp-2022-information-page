@@ -1,20 +1,8 @@
 @media (max-width: 900px) {
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    width: 100vw;
-  }
   .wrapper {
     width: 100vw;
     margin-left: 0;
     margin-right: 0;
-    /* background-color: black; */
-  }
-  .menu {
-    /* padding-left: 110px; */
-    /* notice 오른쪽으로 이동 */
   }
   .top {
     margin: 100px 10px;
@@ -23,6 +11,7 @@
     width: 97%;
     font-size: 13px;
   }
+  /* top end */
   .middle .img {
     width: 200px;
     height: 300px;
@@ -37,8 +26,10 @@
   .middle .desc {
     font-size: 11px;
   }
+  /* middle end */
   .bottom {
-    height: 400px;
+    height: 50%;
+    margin-bottom: 0;
   }
   .bottom .text {
     width: 100%;
@@ -49,20 +40,28 @@
   .bottom .desc {
     font-size: 11px;
   }
+  .boss {
+    height: 50%;
+  }
+
   .boss,
   .main-boss {
-    flex-direction: column;
-    background-color: lightblue;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .boss .text {
+    margin: 0;
+    margin-left: 5%;
   }
   .main-boss .text {
     margin-top: 0;
-    background-color: lightcoral;
+    margin-right: 5%;
   }
   .main-boss .title {
     margin-top: 5px;
   }
-  .boss img {
-    margin-top: -265px;
+  .main-boss img {
+    margin-left: 2%;
   }
   .bottom img {
     width: 80px;
