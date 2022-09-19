@@ -1,0 +1,17 @@
+@media (max-width: 900px) {
+  .wrapper {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    /* background-color: black; */
+  }
+  .goal-wrapper {
+    /* width: 50%; */
+    height: 600px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .goal-container {
+    flex-direction: column;
+  }
+}
