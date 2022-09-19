@@ -23,4 +23,14 @@
   .img-list {
     width: 80%;
   }
+  .activeImg {
+    /* width: 100%; */
+    /* height: 0; */
+    height: 10%;
+
+    /* height: 170px; */
+    /* margin-bottom: 50px; */
+    display: flex;
+    justify-content: flex-start;
+  }
 }
