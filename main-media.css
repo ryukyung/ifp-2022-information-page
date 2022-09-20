@@ -1,22 +1,9 @@
 @media (max-width: 900px) {
-  section {
-    width: 100%;
-    padding-left: 15%;
-    padding-right: 15%;
-    background-color: black;
-    border: none;
-  }
-  .wrapper {
-    width: 100vw;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
   header {
     width: 100vw;
-    justify-content: space-between;
-    align-items: center;
-    /* background-color: lightcoral; */
+    margin-left: 0;
+    margin-right: 0;
+    /* height: 100vh; */
+    /* background-color: black; */
   }
 }
