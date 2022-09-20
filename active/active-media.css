@@ -4,24 +4,39 @@
     margin-left: 0;
     margin-right: 0;
   }
+  .main-container {
+    border: none;
+    margin: 0;
+  }
   .cover {
     /* background-color: aqua; */
-    width: 100%;
+    width: 90%;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cover h1 {
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    margin-left: 8%;
   }
   .cover .container {
     width: 100%;
-    margin-left: 8%;
+    /* margin-left: 8%; */
     margin-right: 0;
     flex-direction: column;
   }
-  .img-list:nth-child(2) {
+  /* .img-list:nth-child(2) {
     margin-left: 0;
     margin-right: 0;
-  }
+  } */
   .img-list {
-    width: 80%;
+    width: 100%;
   }
   .activeImg {
     /* width: 100%; */

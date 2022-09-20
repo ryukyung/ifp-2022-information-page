@@ -3,6 +3,13 @@
     margin: 0;
     padding: 0;
   }
+  .main-container {
+    border: none;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    padding-bottom: 30px;
+  }
   body {
     width: 100vw;
   }

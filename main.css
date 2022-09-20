@@ -1,9 +1,25 @@
 body {
+  width: 100%;
   height: 100%;
   overflow-y: hidden;
 }
-h1 {
-  /* font-family: 'Shrikhand', cursive; */
+.wrapper {
+  background-color: #8bbaf9;
+  width: calc(70% + 4px);
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 15%;
+  margin-right: calc(15% - 4px);
+  display: flex;
+  flex-direction: column;
+}
+#mast {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 2px solid #8bbaf9;
+  /* border-right: 1px solid #8bbaf9; */
 }
 button {
   position: fixed;
@@ -13,7 +29,7 @@ button {
   height: 3rem;
   width: 3rem;
   line-height: 4rem;
-  color: #facdcc;
+  /* color: #facdcc; */
   background: #8bbaf9;
   outline: 0;
   border: 0;

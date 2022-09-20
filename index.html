@@ -26,67 +26,69 @@
   <meta name="msapplication-TileColor" content="#ffffff" />
   <meta name="msapplication-TileImage" content="./image/favicon/ms-icon-144x144.png" />
   <meta name="theme-color" content="#ffffff" />
-  <!-- favicon end -->
-  <!-- 미리보기 시작 -->
+  <!-- favicon end, 미리보기 시작 -->
   <meta property="og:url" content="https://ifp-2022-information-page.vercel.app/">
   <meta property="og:title" content="IFP Information Page">
   <meta property="og:type" content="website">
   <meta property="og:image" content="./image/logo.png">
   <meta property="og:description" content="Hello World">
   <!-- 미리보기 끝 -->
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="./main.css">
 </head>
-<link rel="stylesheet" href="">
-<link rel="stylesheet" href="./style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="./main.css">
-
-<body>
-  <div class="wrapper">
-    <header>
-      <div class="logo">
-        <a href="./index.html">
-          <img src="./image/logo.png" alt="" />
-        </a>
-      </div>
-      <div class="menu">
-        <ul>
-          <a href="./information/information.html">
-            <li>Info</li>
-          </a>
-          <a href="./active/active.html">
-            <li>Active</li>
-          </a>
-          <a href="./goal/goal.html">
-            <li>Goal</li>
-          </a>
-          <a href="./notice/notice.html">
-            <li>Notice</li>
-          </a>
-        </ul>
-      </div>
-    </header>
-  </div>
-  <!-- main start -->
-  <section id="mast" class="mast animate">
-    <div class="mast__header">
-      <span class="mast__icon">🌈</span>
-      <h1 class="mast__title js-letters text-animate">
-        Hello World!</h1>
-      <p class="mast__text js-letters">
-        Welcome to the IFP website.
-      </p>
+<div class="wrapper">
+  <header>
+    <div class="logo">
+      <a href="./index.html">
+        <img src="./image/logo.png" alt="" />
+      </a>
     </div>
-  </section>
-  <button class="btn"><i class="ion-refresh"></i></button>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="./index.js"></script>
-  <!-- main end -->
+    <div class="menu">
+      <ul>
+        <a href="./information/information.html">
+          <li>Info</li>
+        </a>
+        <a href="./active/active.html">
+          <li>Active</li>
+        </a>
+        <a href="./goal/goal.html">
+          <li>Goal</li>
+        </a>
+        <a href="./notice/notice.html">
+          <li>Notice</li>
+        </a>
+      </ul>
+    </div>
+  </header>
+</div>
+
+<section id="mast" class="mast animate">
+  <div class="mast__header">
+    <span class="mast__icon">🌈</span>
+    <h1 class="mast__title js-letters text-animate">
+      Hello World!</h1>
+    <p class="mast__text js-letters">
+      Welcome to the IFP website
+    </p>
+  </div>
+</section>
+<a class="hidden" href="https://hits.seeyoufarm.com">
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fifp-2022-information-page.vercel.app&count_bg=%23000000&title_bg=%23000000&icon=&icon_color=%23E7E7E7&title=IFP&edge_flat=false" />
+</a>
+<button class="btn"><i class="ion-refresh"></i></button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="./index.js"></script>
+<!-- main end -->
 </body>
 
 </html>
